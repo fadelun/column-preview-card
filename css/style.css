@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+body {
+  background: #f2f2f2;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body .container {
+  width: 90vw;
+  margin: 4rem auto;
+}
+
+body .container section {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body .container section h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+body .container section p {
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+body .container section button {
+  border: 2px solid #f2f2f2;
+  font-size: 15px;
+  padding: 0.8rem 1.2rem;
+  border-radius: 24px;
+  font-family: "Lexend Deca", sans-serif;
+  background: #f2f2f2;
+}
+
+body .container section button:hover {
+  border: 2px solid #f2f2f2;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+body .container #sedans {
+  padding: 2.5rem;
+  border-radius: 10px 10px 0 0;
+  background: #e38826;
+}
+
+body .container #sedans button {
+  color: #e38826;
+}
+
+body .container #sedans button:hover {
+  color: #f2f2f2;
+}
+
+body .container #suvs {
+  padding: 2.5rem;
+  background: #006970;
+}
+
+body .container #suvs button {
+  color: #006970;
+}
+
+body .container #suvs button:hover {
+  color: #f2f2f2;
+}
+
+body .container #luxury {
+  padding: 2.5rem;
+  border-radius: 0 0 10px 10px;
+  background: #004241;
+}
+
+body .container #luxury button {
+  color: #004241;
+}
+
+body .container #luxury button:hover {
+  color: #f2f2f2;
+}
+
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body .attribution,
+body .attribution a {
+  color: rgba(128, 128, 128, 0.664);
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  body .container {
+    width: 74vw;
+    margin: 6rem auto;
+    display: flex;
+  }
+  body .container section {
+    width: 100%;
+  }
+  body .container section p {
+    margin-bottom: 6rem;
+  }
+  body .container button {
+    padding: 0.8rem 1.4rem;
+  }
+  body .container #sedans {
+    border-radius: 10px 0 0 10px;
+  }
+  body .container #luxury {
+    border-radius: 0 10px 10px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
